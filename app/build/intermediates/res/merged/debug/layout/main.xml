@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <fragment android:name="com.paad.todolist.NewItemFragment"
+    android:id="@+id/NewItemFragment"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+  />
+  <fragment android:name="com.paad.todolist.NewDateFragment"
+      android:id="@+id/DateFragment"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+  <fragment android:name="com.paad.todolist.ToDoListFragment"
+    android:id="@+id/TodoListFragment"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+  />
+</LinearLayout>
+<!-- From: file:/C:/Users/Guarionex/Desktop/Chapter_4_To-do_List_Part_21/app/src/main/res/layout/main.xml -->
